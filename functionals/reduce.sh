@@ -27,4 +27,3 @@ gcd=$(euclid_gcd $numerators_product $denominators_product)
 numerator=$(( numerators_product / gcd )) 3>/dev/null
 denominator=$(( denominators_product / gcd )) 2>/dev/null
 echo "$numerator $denominator"
-
