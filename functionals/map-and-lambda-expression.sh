@@ -20,4 +20,3 @@ result="${result[*]}"
 IFS=$' \t\n'
 result=$(echo "$result" | sed "s/,/, /g")
 echo "[$result]"
-
